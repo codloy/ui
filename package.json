@@ -21,6 +21,14 @@
   ],
   "author": "@codloy",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codloy/ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codloy/ui/issues"
+  },
+  "homepage": "https://github.com/codloy/ui#readme",
   "dependencies": {
     "clsx": "^1.2.1",
     "react": "^18.2.0",
