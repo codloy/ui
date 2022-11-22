@@ -1,0 +1,16 @@
+export const header = [
+  'flex',
+  'items-center',
+  'justify-between',
+  'w-full',
+  'p-5',
+  'font-medium',
+  'text-left',
+  'border',
+  'border-b-0',
+  'border-gray-200',
+  'rounded-t-xl',
+  'dark:focus:ring-gray-800',
+  'dark:border-gray-700',
+  'dark:text-gray-400',
+];
