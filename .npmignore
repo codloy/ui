@@ -4,5 +4,6 @@ postcss.config.js
 tailwind.config.js
 babel.config.js
 tsconfig.json
+package.json
 .env
 .gitignore
