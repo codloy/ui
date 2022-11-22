@@ -14,6 +14,14 @@ npm install @codloy/ui
 yard add @codloy/ui
 ```
 
+## Configuration
+
+**Import styles to root file**
+
+```js
+import '@codloy/ui/styles.css';
+```
+
 ## Examples
 
 ### Button
