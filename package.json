@@ -6,7 +6,11 @@
     "prebuild": "rm -rf ./dist",
     "build": "set NODE_ENV=production && npm run build:typescript && npm run build:tailwind",
     "build:typescript": "tsc",
-    "build:tailwind": "tailwindcss -o dist/styles.css --minify"
+    "build:tailwind": "tailwindcss -o dist/styles.css --minify",
+    "copydist": "cp -r ./dist/* . && rm -rf ./dist",
+    "undodist": "git clean -fd",
+    "prepublishOnly": "npm run build && npm run copydist",
+    "postpublish": "npm run undodist"
   },
   "keywords": [
     "codloy",
