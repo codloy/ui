@@ -1,6 +1,6 @@
 {
   "name": "@codloy/ui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Codloy UI",
   "scripts": {
     "clear": "rm -rf ./dist",
