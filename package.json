@@ -4,7 +4,9 @@
   "description": "Codloy UI",
   "scripts": {
     "prebuild": "rm -rf ./dist",
-    "build": "tsc"
+    "build": "set NODE_ENV=production && npm run build:typescript && npm run build:tailwind",
+    "build:typescript": "tsc",
+    "build:tailwind": "tailwindcss -o dist/styles.css --minify"
   },
   "keywords": [
     "codloy",
