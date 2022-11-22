@@ -1,0 +1,7 @@
+/node_modules
+/src
+postcss.config.js
+tailwindcss.config.js
+tsconfig.json
+.env
+.gitignore
